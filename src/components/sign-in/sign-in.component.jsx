@@ -46,7 +46,6 @@ class SignIn extends React.Component{
                     name="email" 
                     value={this.state.email}
                     handleChange={this.handleChange}
-                    value={this.state.email} 
                     label="email"
                     required 
                 />
